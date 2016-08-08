@@ -1,0 +1,12 @@
+D:\Site\YazilimciPortaliProject\WebPortalCare\bin\WebPortalCare.dll.config
+D:\Site\YazilimciPortaliProject\WebPortalCare\bin\WebPortalCare.dll
+D:\Site\YazilimciPortaliProject\WebPortalCare\bin\WebPortalCare.pdb
+D:\Site\YazilimciPortaliProject\WebPortalCare\obj\Debug\WebPortalCare.csprojResolveAssemblyReference.cache
+D:\Site\YazilimciPortaliProject\WebPortalCare\obj\Debug\WebPortalCare.dll
+D:\Site\YazilimciPortaliProject\WebPortalCare\obj\Debug\WebPortalCare.pdb
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCare\bin\WebPortalCare.dll.config
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCare\bin\WebPortalCare.dll
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCare\bin\WebPortalCare.pdb
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCare\obj\Debug\WebPortalCare.csprojResolveAssemblyReference.cache
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCare\obj\Debug\WebPortalCare.dll
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCare\obj\Debug\WebPortalCare.pdb

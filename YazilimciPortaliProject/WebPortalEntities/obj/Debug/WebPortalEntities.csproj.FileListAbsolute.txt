@@ -1,0 +1,6 @@
+D:\Site\YazilimciPortaliProject\WebPortalEntities\bin\WebPortalEntities.dll.config
+D:\Site\YazilimciPortaliProject\WebPortalEntities\bin\WebPortalEntities.dll
+D:\Site\YazilimciPortaliProject\WebPortalEntities\bin\WebPortalEntities.pdb
+D:\Site\YazilimciPortaliProject\WebPortalEntities\obj\Debug\WebPortalEntities.dll
+D:\Site\YazilimciPortaliProject\WebPortalEntities\obj\Debug\WebPortalEntities.pdb
+D:\Site\YazilimciPortaliProject\WebPortalEntities\obj\Debug\WebPortalEntities.csprojResolveAssemblyReference.cache

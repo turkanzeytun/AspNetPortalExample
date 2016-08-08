@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B8EF021-2D71-499D-8277-55601F3CEDF4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YazilimciPortaliProject</RootNamespace>
+    <AssemblyName>YazilimciPortaliProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASPNetFlashVideo.NET4, Version=2.0.1.0, Culture=neutral, PublicKeyToken=6e7587071e8d6055, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\TURKAN\Desktop\ASPNetFlashVideoSetup\ASPNetFlashVideoSetup\ASP.NET 4.0 WebControl (Visual Studio 2010)\ASPNetFlashVideo.NET4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\demo\100x75yeni.jpg" />
+    <Content Include="images\LightBox\img\close.png" />
+    <Content Include="images\LightBox\img\demopage\favicon.png" />
+    <Content Include="images\LightBox\img\demopage\image-1.jpg" />
+    <Content Include="images\LightBox\img\demopage\image-2.jpg" />
+    <Content Include="images\LightBox\img\demopage\image-3.jpg" />
+    <Content Include="images\LightBox\img\demopage\image-4.jpg" />
+    <Content Include="images\LightBox\img\demopage\image-5.jpg" />
+    <Content Include="images\LightBox\img\demopage\image-6.jpg" />
+    <Content Include="images\LightBox\img\demopage\thumb-1.jpg" />
+    <Content Include="images\LightBox\img\demopage\thumb-2.jpg" />
+    <Content Include="images\LightBox\img\demopage\thumb-3.jpg" />
+    <Content Include="images\LightBox\img\demopage\thumb-4.jpg" />
+    <Content Include="images\LightBox\img\demopage\thumb-5.jpg" />
+    <Content Include="images\LightBox\img\demopage\thumb-6.jpg" />
+    <Content Include="images\LightBox\img\loading.gif" />
+    <Content Include="images\LightBox\img\next.png" />
+    <Content Include="images\LightBox\img\prev.png" />
+    <Content Include="index.html" />
+    <Content Include="login.aspx" />
+    <Content Include="App_Themes\AnaSayfaTemalar\125890163_13317815881_m.GIF" />
+    <Content Include="App_Themes\AnaSayfaTemalar\1471-2121-6-44-5.gif" />
+    <Content Include="App_Themes\AnaSayfaTemalar\bilisim-sektorunde-kadinlarin-yeri-ve-etkisi-3624344_1352_o.jpg" />
+    <Content Include="App_Themes\AnaSayfaTemalar\sfd_box_100x180.jpg" />
+    <Content Include="App_Themes\AnaSayfaTemalar\yazilim.jpg" />
+    <Content Include="Bulunamadi.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Hata.aspx" />
+    <Content Include="images\black_file.gif" />
+    <Content Include="images\blue_file.gif" />
+    <Content Include="images\demo\100x180.gif" />
+    <Content Include="images\demo\100x75.gif" />
+    <Content Include="images\demo\240x90.gif" />
+    <Content Include="images\demo\290x100.gif" />
+    <Content Include="images\demo\380x300.gif" />
+    <Content Include="images\demo\60x60.gif" />
+    <Content Include="images\demo\80x80.gif" />
+    <Content Include="images\demo\avatar.gif" />
+    <Content Include="images\demo\imgl.gif" />
+    <Content Include="images\demo\imgr.gif" />
+    <Content Include="index.aspx" />
+    <Content Include="Sayfalar\Iletisim.aspx" />
+    <Content Include="Sayfalar\VideoShow.aspx" />
+    <Content Include="Sayfalar\YayinlananProgramciklar.aspx" />
+    <Content Include="Sayfalar\YayinlananVideolar.aspx" />
+    <Content Include="styles\forms.css" />
+    <Content Include="styles\layout.css" />
+    <Content Include="styles\LightBox\css\lightbox.css" />
+    <Content Include="styles\LightBox\css\screen.css" />
+    <Content Include="styles\LightBox\js\jquery-1.11.0.min.js" />
+    <Content Include="styles\LightBox\js\lightbox.js" />
+    <Content Include="styles\LightBox\js\lightbox.min.js" />
+    <Content Include="styles\navi.css" />
+    <Content Include="styles\tables.css" />
+    <Content Include="UyeGirisHata.aspx" />
+    <Content Include="UyeSayfalar\CSProgramShow.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="App_Themes\AdminTemalar\admin.html" />
+    <Content Include="App_Themes\AdminTemalar\arrow-000-small.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-180-small.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-180.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-curve-000-left.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-curve-180-left.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-stop-000-small.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-stop-180-small.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-stop-180.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow-stop.gif" />
+    <Content Include="App_Themes\AdminTemalar\arrow.gif" />
+    <Content Include="App_Themes\AdminTemalar\asc.gif" />
+    <Content Include="App_Themes\AdminTemalar\balloon.gif" />
+    <Content Include="App_Themes\AdminTemalar\bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\bin.gif" />
+    <Content Include="App_Themes\AdminTemalar\button-left-bg-m.gif" />
+    <Content Include="App_Themes\AdminTemalar\button-left-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\button-right-bg-m.gif" />
+    <Content Include="App_Themes\AdminTemalar\button-right-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\cross-on-white.gif" />
+    <Content Include="App_Themes\AdminTemalar\cross-small.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_calendar.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_file.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_files.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_locked.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_settings.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_stats.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_user.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Clear_write.gif" />
+    <Content Include="App_Themes\AdminTemalar\Crystal_Project_mail_open.gif" />
+    <Content Include="App_Themes\AdminTemalar\dashboard-module.gif" />
+    <Content Include="App_Themes\AdminTemalar\desc.gif" />
+    <Content Include="App_Themes\AdminTemalar\grid.css" />
+    <Content Include="App_Themes\AdminTemalar\header-bg.jpg" />
+    <Content Include="App_Themes\AdminTemalar\icon-logout.gif" />
+    <Content Include="App_Themes\AdminTemalar\ie.css" />
+    <Content Include="App_Themes\AdminTemalar\ie6.css" />
+    <Content Include="App_Themes\AdminTemalar\indicator-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\indicator-green-to-red.gif" />
+    <Content Include="App_Themes\AdminTemalar\indicator-red-to-green.gif" />
+    <Content Include="App_Themes\AdminTemalar\input-bg-focus.gif" />
+    <Content Include="App_Themes\AdminTemalar\input-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\jquery-1.3.2.min.js" />
+    <Content Include="App_Themes\AdminTemalar\jquery.pstrength-min.1.2.js" />
+    <Content Include="App_Themes\AdminTemalar\jquery.tablesorter.min.js" />
+    <Content Include="App_Themes\AdminTemalar\jquery.tablesorter.pager.js" />
+    <Content Include="App_Themes\AdminTemalar\jquery.wysiwyg.css" />
+    <Content Include="App_Themes\AdminTemalar\jquery.wysiwyg.gif" />
+    <Content Include="App_Themes\AdminTemalar\jquery.wysiwyg.js" />
+    <Content Include="App_Themes\AdminTemalar\logo.gif" />
+    <Content Include="App_Themes\AdminTemalar\macFFBgHack.png" />
+    <Content Include="App_Themes\AdminTemalar\mail-q-bg.jpg" />
+    <Content Include="App_Themes\AdminTemalar\minus-circle.gif" />
+    <Content Include="App_Themes\AdminTemalar\module-body-left-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\module-body-right-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\module-header-left-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\module-header-right-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\notification-exclamation.gif" />
+    <Content Include="App_Themes\AdminTemalar\notification-information.gif" />
+    <Content Include="App_Themes\AdminTemalar\notification-slash.gif" />
+    <Content Include="App_Themes\AdminTemalar\notification-tick.gif" />
+    <Content Include="App_Themes\AdminTemalar\pencil.gif" />
+    <Content Include="App_Themes\AdminTemalar\plus-small.gif" />
+    <Content Include="App_Themes\AdminTemalar\reset.css" />
+    <Content Include="App_Themes\AdminTemalar\screenshot.jpg" />
+    <Content Include="App_Themes\AdminTemalar\styles.css" />
+    <Content Include="App_Themes\AdminTemalar\submenu-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\submit-gray-bg-hover.gif" />
+    <Content Include="App_Themes\AdminTemalar\submit-gray-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\submit-green-bg-hover.gif" />
+    <Content Include="App_Themes\AdminTemalar\submit-green-bg.gif" />
+    <Content Include="App_Themes\AdminTemalar\tab-active-left.gif" />
+    <Content Include="App_Themes\AdminTemalar\tab-active-right.gif" />
+    <Content Include="App_Themes\AdminTemalar\tab-left.gif" />
+    <Content Include="App_Themes\AdminTemalar\tab-right.gif" />
+    <Content Include="App_Themes\AdminTemalar\tablesorter.css" />
+    <Content Include="App_Themes\AdminTemalar\theme-blue.css" />
+    <Content Include="App_Themes\AdminTemalar\thickbox.css" />
+    <Content Include="App_Themes\AdminTemalar\thickbox.js" />
+    <Content Include="App_Themes\AdminTemalar\tick-circle.gif" />
+    <Content Include="App_Themes\AdminTemalar\tick-on-white.gif" />
+    <Content Include="App_Themes\AdminTemalar\tick-small.gif" />
+    <Content Include="App_Themes\AdminTemalar\user-female.gif" />
+    <Content Include="App_Themes\AdminTemalar\user.gif" />
+    <Content Include="YonetimPaneli\AdminIndex.aspx" />
+    <Content Include="YonetimPaneli\OrjinalSayfa.aspx" />
+    <Content Include="YonetimPaneli\ProgramYukle.aspx" />
+    <Content Include="YonetimPaneli\VideoYukle.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bulunamadi.aspx.cs">
+      <DependentUpon>Bulunamadi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bulunamadi.aspx.designer.cs">
+      <DependentUpon>Bulunamadi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Hata.aspx.cs">
+      <DependentUpon>Hata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hata.aspx.designer.cs">
+      <DependentUpon>Hata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\AdminPanel.master.cs">
+      <DependentUpon>AdminPanel.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\AdminPanel.master.designer.cs">
+      <DependentUpon>AdminPanel.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\AdminPanelIndex.Master.cs">
+      <DependentUpon>AdminPanelIndex.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\AdminPanelIndex.Master.designer.cs">
+      <DependentUpon>AdminPanelIndex.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\AnaSayfa.Master.cs">
+      <DependentUpon>AnaSayfa.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\AnaSayfa.Master.designer.cs">
+      <DependentUpon>AnaSayfa.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sayfalar\Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sayfalar\Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sayfalar\VideoShow.aspx.cs">
+      <DependentUpon>VideoShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sayfalar\VideoShow.aspx.designer.cs">
+      <DependentUpon>VideoShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sayfalar\YayinlananProgramciklar.aspx.cs">
+      <DependentUpon>YayinlananProgramciklar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sayfalar\YayinlananProgramciklar.aspx.designer.cs">
+      <DependentUpon>YayinlananProgramciklar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sayfalar\YayinlananVideolar.aspx.cs">
+      <DependentUpon>YayinlananVideolar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sayfalar\YayinlananVideolar.aspx.designer.cs">
+      <DependentUpon>YayinlananVideolar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeGirisHata.aspx.cs">
+      <DependentUpon>UyeGirisHata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeGirisHata.aspx.designer.cs">
+      <DependentUpon>UyeGirisHata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeSayfalar\CSProgramShow.aspx.cs">
+      <DependentUpon>CSProgramShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeSayfalar\CSProgramShow.aspx.designer.cs">
+      <DependentUpon>CSProgramShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YonetimPaneli\AdminIndex.aspx.cs">
+      <DependentUpon>AdminIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YonetimPaneli\AdminIndex.aspx.designer.cs">
+      <DependentUpon>AdminIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YonetimPaneli\OrjinalSayfa.aspx.cs">
+      <DependentUpon>OrjinalSayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YonetimPaneli\OrjinalSayfa.aspx.designer.cs">
+      <DependentUpon>OrjinalSayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YonetimPaneli\ProgramYukle.aspx.cs">
+      <DependentUpon>ProgramYukle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YonetimPaneli\ProgramYukle.aspx.designer.cs">
+      <DependentUpon>ProgramYukle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YonetimPaneli\VideoYukle.aspx.cs">
+      <DependentUpon>VideoYukle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YonetimPaneli\VideoYukle.aspx.designer.cs">
+      <DependentUpon>VideoYukle.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\AnaSayfa.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Admin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\AdminPanelIndex.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\AdminPanel.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UyeSayfalar\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebPortalCode\WebPortalCode.csproj">
+      <Project>{17725a81-36d8-42da-90f6-a9c7601b4b82}</Project>
+      <Name>WebPortalCode</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="YonetimPaneli\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Themes\Yuklemeler\DemoPragramlar\" />
+    <Folder Include="App_Themes\Yuklemeler\Videolar\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="styles\LightBox\js\jquery-1.11.0.min.map" />
+    <Content Include="styles\LightBox\js\lightbox.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52670</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

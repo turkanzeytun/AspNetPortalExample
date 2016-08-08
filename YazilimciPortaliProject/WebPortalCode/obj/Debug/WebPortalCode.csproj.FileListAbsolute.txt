@@ -1,0 +1,12 @@
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCode\bin\WebPortalCode.dll.config
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCode\bin\WebPortalCode.dll
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCode\bin\WebPortalCode.pdb
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCode\obj\Debug\WebPortalCode.csprojResolveAssemblyReference.cache
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCode\obj\Debug\WebPortalCode.dll
+D:\WEB ÇALIŞMALARI\YAZILIM PORTALI\YazilimciPortaliProject\WebPortalCode\obj\Debug\WebPortalCode.pdb
+D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\WebPortalCode\obj\Debug\WebPortalCode.csprojResolveAssemblyReference.cache
+D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\WebPortalCode\obj\Debug\WebPortalCode.dll
+D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\WebPortalCode\obj\Debug\WebPortalCode.pdb
+D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\WebPortalCode\bin\WebPortalCode.dll.config
+D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\WebPortalCode\bin\WebPortalCode.dll
+D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\WebPortalCode\bin\WebPortalCode.pdb

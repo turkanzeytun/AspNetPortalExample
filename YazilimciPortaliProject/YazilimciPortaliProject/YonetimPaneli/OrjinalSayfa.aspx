@@ -1,0 +1,1 @@
+﻿<%@ Page Title="" Language="C#" EnableViewState = "False" MasterPageFile="~/MasterPages/Admin.Master" AutoEventWireup="true" CodeBehind="OrjinalSayfa.aspx.cs" Inherits="YazilimciPortaliProject.YonetimPaneli.OrjinalSayfa" %>

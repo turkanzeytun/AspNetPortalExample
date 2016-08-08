@@ -1,0 +1,233 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AnaSayfa.master.cs" Inherits="YazilimciPortaliProject.MasterPages.AnaSayfa"  %>
+<!DOCTYPE ><%--<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">--%>
+<html>
+<head>
+<title>Yaz&#305;l&#305;mda Bugün</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+      <asp:ContentPlaceHolder ID="CSSHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="top">
+<form id="form1" runat="server">
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">Yaz&#305;l&#305;mda Bugün</a></h1>
+      <p><strong>S&#305;n&#305;rs&#305;z Ücretsiz &#304;çerik</strong></p>
+    </div>
+
+
+    <div id="newsletter">
+      <p>Yeni içerik eklendi&#287;inde mail adresinizden size ula&#351;al&#305;m :)</p>
+        <fieldset>
+          <legend>NewsLetter</legend>
+          <%--<input type="text" value="Kullan&#305;c&#305; Ad&#305;&hellip;"  onfocus="this.value=(this.value=='Name&hellip;')? '' : this.value ;" />--%>
+            <asp:TextBox ID="txtKullaniciAd" runat="server" Text="Kullan&#305;c&#305; Ad&#305;n&#305; Giriniz"></asp:TextBox>          
+          <%--<input type="text" value="Email Adres&hellip;"  onfocus="this.value=(this.value=='Email&hellip;')? '' : this.value ;" />--%>
+            <asp:TextBox ID="txtEmail" runat="server" Text="Email Adres"></asp:TextBox>
+          <%--<input type="submit" name="news_go" id="news_go" value="EKLE" />--%>
+            <asp:Button ID="news_go" runat="server" Text="EKLE" />        
+        </fieldset>
+      </div>
+    <br class="clear" />
+  </div>
+</div>
+
+
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li class="" runat="server" id="menu0">
+            <a  href="<%=GetRouteUrl("IndexGoster", new { })%>">Ana Sayfa</a></li>
+        <li  runat="server" id="menu1" class="">     
+           <a href="#">Demo Programc&#305;klar</a>
+           <ul>
+            <li><a href="#">MS WORD</a></li>
+            <li><a href="#">MS EXCEL</a></li>
+            <li><a href="#">MS POWER POINT</a></li>
+            <li><a href="<%=GetRouteUrl("ProgramlariGoster", new {ID = "1", PAGE ="1" }) %>">C#</a></li>
+            <li><a href="#">PHOTOSHOP</a></li>
+            <li><a href="#">FLASH</a></li>
+          </ul>
+
+        </li>        
+        <li><a href="#">E&#287;itim Videolar&#305;</a>
+           <ul>
+            <li><a href="#">MS WORD</a></li>
+            <li><a href="#">MS EXCEL</a></li>
+            <li><a href="#">MS POWER POINT</a></li>            
+            <li>
+                <a  href="<%=GetRouteUrl("VideolariGoster", new {ID = "1", PAGE ="1" }) %>">
+                    C#
+
+                </a>
+               
+            </li>
+            <li><a href="#">PHOTOSHOP</a></li>
+            <li><a href="#">FLASH</a></li>
+          </ul>
+
+        </li>
+        <li><a href="#">Makaleler</a>
+          <ul>
+            <li><a href="#">MS WORD</a></li>
+            <li><a href="#">MS EXCEL</a></li>
+            <li><a href="#">MS POWER POINT</a></li>
+            <li><a href="#">C#</a></li>
+            <li><a href="#">PHOTOSHOP</a></li>
+            <li><a href="#">FLASH</a></li>
+          </ul>
+        </li>
+        <li class="last"><a  href="<%=GetRouteUrl("IletisimSayfasi", new { }) %>">İletişim</a></li>
+      </ul>
+    </div>
+    <div id="search">
+        <fieldset>
+          <legend>Ara</legend>
+          <input type="text" value="Site &#304;çinde Ara&hellip;"  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+          <input type="submit" name="go" id="go" value="Ara" />
+        </fieldset>
+      </div>
+    <br class="clear" />
+  </div>
+    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+</div>
+
+
+
+<div class="wrapper col3">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+    </asp:ContentPlaceHolder>
+</div>
+   
+
+
+<div class="wrapper col4">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+    </asp:ContentPlaceHolder>
+</div>
+
+
+
+<div class="wrapper col5">
+  <div id="container">
+    <div id="content">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+     </asp:ContentPlaceHolder>
+    </div>
+    <div id="column">
+      <div class="holder">
+        <h2>En Çok T&#305;klanan Konular</h2>
+        <ul id="latestnews">
+          <asp:DataList ID="SonVideolarDataList" runat="server">
+              <ItemTemplate>                   
+                        <li>
+                            <img class="imgl" src="<%# HttpUtility.HtmlEncode(Eval("thumbnail").ToString()) %>"/>
+                            <p>
+                                <strong>          
+                                <a href='<%# GetRouteUrl("VideoGoster", new {ID = Eval("videID")}) %>'>
+                                    <%# HttpUtility.HtmlEncode(Eval("videoName").ToString()) %>
+                                </a>
+                           </strong>
+                            </p>                                                  
+                        <p class="col3">
+                            <%# HttpUtility.HtmlEncode(Eval("comment").ToString()) %>
+                        </p>
+                        </li>                 
+              </ItemTemplate>
+          </asp:DataList>
+          </ul>
+      </div>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+
+
+
+<div class="wrapper col6">
+  <div id="footer">
+    <div id="login">
+      <h2>Üye Giri&#351;i !</h2>
+      <p>Üyelik Bilgilerinizi Girerek Giri&#351; Yapabilirsiniz</p>
+        <fieldset>
+          <legend>Kullan&#305;c&#305; Giri&#351;i</legend>
+          <div class="fl_left">
+            
+              <%--<input type="text" value="Email Adresinizi Giriniz&hellip;"  onfocus="this.value=(this.value=='Email Adresinizi Giriniz&hellip;')? '' : this.value ;" />
+              --%>
+              <asp:TextBox ID="txtKullanici" runat="server"></asp:TextBox>
+            
+             <%-- <input type="password" value="Enter password&hellip;"  onfocus="this.value=(this.value=='Enter password&hellip;')? '' : this.value ;" />
+              --%>
+              <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+          </div>
+          <div class="fl_right">
+            <%--<input type="submit" name="login_go" id="login_go" value="&raquo;" />
+            --%>  
+              <asp:Button ID="login_go" runat="server" Text="&raquo;" OnClick="login_go_Click" />
+          </div>
+        </fieldset>
+      <p><a href="#">&raquo; Parolam&#305; Unuttumye &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+
+
+
+<div class="wrapper col7">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2011 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a href="#" title="Website">OS </a></p>
+    <br class="clear" />
+  </div>
+</div>
+
+
+
+    </form>
+</body>
+</html>
+
+    
+
+
+

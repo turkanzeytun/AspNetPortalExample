@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" EnableViewState = "False" MasterPageFile="~/MasterPages/AdminPanelIndex.Master" AutoEventWireup="true" CodeBehind="AdminPanel.master.cs" Inherits="YazilimciPortaliProject.MasterPages.AdminPanel" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="UstAnaMenu" runat="server">
+    <ul id="nav">
+     <li id="current"><a href="#">Site Genel Ayarlar</a></li>
+     <li><a href="#">Anasayfa</a></li>
+     <li><a href="#">Videolar</a></li>
+     <li><a href="#">Programlar</a></li>
+     <li><a href="#">Makaleler</a></li>
+     <li><a href="#">Office Örnekleri</a></li>
+     <li><a href="#">Hakkımızda</a></li>
+     <li><a href="#">İletişim</a></li>
+     <li><a href="#">Kullanıcı Ayarları</a></li>
+     <li><a href="#">Yönetici Ayarları</a></li>
+    </ul>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="UstLinkler" runat="server">
+    <ul>
+      <li><a href="<%=GetRouteUrl("VideoYukle", new {ID = "0", NAME="Video", PAGE ="0" }) %>">Videolar</a></li>
+      <li><a href="<%=GetRouteUrl("DemoProgramYukle", new {ID = "0", NAME="Program", PAGE ="0" }) %>">Küçük Programlar</a></li>
+      <li><a href="#">Makaleler</a></li>
+      <li><a href="#">Office Örnekleri</a></li>
+    </ul>
+</asp:Content>
+
+
+<asp:Content ID="Content3" ContentPlaceHolderID="Govde" runat="server">
+    <asp:ContentPlaceHolder ID="Icerik" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ID="Content4" ContentPlaceHolderID="AltKısım" runat="server">
+    <!-- You can change the copyright line for your own -->
+    <p>&copy; 2014. <a href="#" title="Henüz İşimiz Bitmedi">Oluşma Aşamasında</a></p>
+</asp:Content>
