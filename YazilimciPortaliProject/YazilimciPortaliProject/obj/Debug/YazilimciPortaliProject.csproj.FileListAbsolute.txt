@@ -17,3 +17,12 @@ D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\YazilimciPortaliProj
 D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\YazilimciPortaliProject\obj\Debug\YazilimciPortaliProject.dll.licenses
 D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\YazilimciPortaliProject\obj\Debug\YazilimciPortaliProject.dll
 D:\WEB ÇALIŞMALARI\YAZILIM PORTAL\YazilimciPortaliProject\YazilimciPortaliProject\obj\Debug\YazilimciPortaliProject.pdb
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\bin\YazilimciPortaliProject.dll.config
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\bin\YazilimciPortaliProject.dll
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\bin\YazilimciPortaliProject.pdb
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\bin\WebPortalCode.dll
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\bin\WebPortalCode.pdb
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\obj\Debug\YazilimciPortaliProject.csprojResolveAssemblyReference.cache
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\obj\Debug\YazilimciPortaliProject.dll.licenses
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\obj\Debug\YazilimciPortaliProject.dll
+C:\Users\TURKAN\Desktop\AspNetPortalExample\YazilimciPortaliProject\YazilimciPortaliProject\obj\Debug\YazilimciPortaliProject.pdb
